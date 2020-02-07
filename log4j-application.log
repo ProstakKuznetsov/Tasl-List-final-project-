@@ -1,0 +1,42 @@
+2020.02.07 15:00:24 INFO  Main:82 - create and read file
+2020.02.07 15:01:00 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:01:04 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 15:51:21 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:54:25 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:55:04 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:55:06 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:56:07 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 15:56:09 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:01:09 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:01:11 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:03:11 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:03:13 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:06:04 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:06:06 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:12:27 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:12:29 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:12:44 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:12:45 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:14:14 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:14:17 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:24:41 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:24:47 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:25:06 INFO  Main:82 - create and read file
+2020.02.07 16:25:44 INFO  Main:42 - attempt to add a record with empty fields
+2020.02.07 16:25:52 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:25:58 INFO  Main:82 - create and read file
+2020.02.07 16:26:16 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:26:21 INFO  Main:82 - create and read file
+2020.02.07 16:35:42 INFO  Main:82 - create and read file
+2020.02.07 16:37:40 INFO  Main:82 - create and read file
+2020.02.07 16:37:59 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:38:04 INFO  Main:82 - create and read file
+2020.02.07 16:38:13 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:38:18 INFO  Main:82 - create and read file
+2020.02.07 16:38:27 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:38:32 INFO  Main:82 - create and read file
+2020.02.07 16:38:42 INFO  Main:41 - program closed without saving
+2020.02.07 16:38:46 INFO  Main:82 - create and read file
+2020.02.07 16:39:02 INFO  Main:30 - new values added in table and saved to a file
+2020.02.07 16:41:05 INFO  Main:82 - create and read file
+2020.02.07 16:41:21 INFO  Main:30 - new values added in table and saved to a file

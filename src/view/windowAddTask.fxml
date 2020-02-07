@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="allPane" maxHeight="400.0" maxWidth="671.0" minHeight="299.0" minWidth="671.0" prefHeight="299.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AssistantInAddingTask">
+   <children>
+      <TextField fx:id="nameTask" layoutX="192.0" layoutY="38.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.leftAnchor="192.0" AnchorPane.topAnchor="38.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect></TextField>
+      <TextField fx:id="dateOfCreation" editable="false" layoutX="192.0" layoutY="192.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.leftAnchor="192.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect></TextField>
+      <TextField fx:id="doerName" layoutX="192.0" layoutY="76.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.leftAnchor="192.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect></TextField>
+      <DatePicker fx:id="expirationDate" editable="false" layoutX="192.0" layoutY="225.0" prefHeight="25.0" prefWidth="144.0" showWeekNumbers="true" AnchorPane.leftAnchor="192.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect></DatePicker>
+      <ChoiceBox fx:id="priority" layoutX="192.0" layoutY="113.0" prefHeight="25.0" prefWidth="144.0" AnchorPane.leftAnchor="192.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect>
+      </ChoiceBox>
+      <Label layoutX="31.0" layoutY="42.0" prefHeight="17.0" prefWidth="129.0" text="Заголовок задачи">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="31.0" layoutY="80.0" prefHeight="17.0" prefWidth="129.0" text="Исполнитель задачи">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="31.0" layoutY="117.0" prefHeight="17.0" prefWidth="129.0" text="Приоритет">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="31.0" layoutY="196.0" prefHeight="17.0" prefWidth="129.0" text="Дата создания">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="31.0" layoutY="229.0" prefHeight="17.0" prefWidth="129.0" text="Срок выполнения">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="438.0" layoutY="14.0" prefHeight="20.0" prefWidth="129.0" text="Описание задачи">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="138.14" color="#2f2e2e" elevation="0.0" />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <TextArea fx:id="description" layoutX="402.0" layoutY="38.0" prefHeight="212.0" prefWidth="200.0" wrapText="true">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant azimuth="213.49" color="#f5f4f4" elevation="48.47" />
+               </light>
+            </Lighting>
+         </effect>
+      </TextArea>
+      <Button fx:id="addTask" layoutX="402.0" layoutY="262.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Добавить задачу" />
+   </children>
+</AnchorPane>

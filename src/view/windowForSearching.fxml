@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="searchingPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Searcher">
+   <children>
+      <BorderPane fx:id="searchingBord" layoutX="10.0" layoutY="10.0" maxHeight="100.0" maxWidth="582.0" minHeight="72.0" minWidth="200.0" prefHeight="72.0" prefWidth="582.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="10.0">
+         <center>
+            <TextArea fx:id="searchingText" maxHeight="56.0" maxWidth="446.0" prefHeight="15.0" prefWidth="446.0" wrapText="true" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Text fx:id="greeting" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите ключевое слово или фразу" textAlignment="CENTER" wrappingWidth="357.244140625" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
+         </top>
+      </BorderPane>
+      <TableView fx:id="allTasksTable" editable="true" layoutY="122.0" minHeight="272.0" minWidth="600.0" prefHeight="278.0" prefWidth="600.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="122.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="75.0" text="Заголовок" />
+          <TableColumn fx:id="descriptionColumn" prefWidth="67.0" text="Описание" />
+          <TableColumn fx:id="priorityColumn" prefWidth="72.0" text="Приоритет" />
+          <TableColumn fx:id="dateOfCreationColumn" prefWidth="94.0" text="Дата Создания" />
+          <TableColumn fx:id="expirationTimeColumn" prefWidth="114.0" text="Срок Выполнения" />
+          <TableColumn fx:id="doerNameColumn" prefWidth="94.0" text="Исполнитель" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="79.0" layoutY="83.0" prefHeight="36.0" prefWidth="399.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="83.0">
+         <children>
+            <Button fx:id="searchByTaskName" mnemonicParsing="false" text="Поиск по заголовку" textAlignment="CENTER" />
+            <Button fx:id="searchByDescription" alignment="CENTER_RIGHT" contentDisplay="TOP" mnemonicParsing="false" text="Поиск по описанию" textAlignment="CENTER" />
+            <Button fx:id="searchByDoerName" mnemonicParsing="false" text="Поиск по исполнителю" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

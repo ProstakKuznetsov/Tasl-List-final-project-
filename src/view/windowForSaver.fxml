@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane centerShape="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="180.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SaverToFile">
+   <top>
+      <Label fx:id="questionLabel" prefHeight="27.0" prefWidth="154.0" text="Сохранить изменения?" textAlignment="CENTER" textFill="#7e7f90" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Label>
+   </top>
+   <right>
+      <Button fx:id="closeWithoutSavingButton" mnemonicParsing="false" prefHeight="20.0" prefWidth="85.0" text="Нет" BorderPane.alignment="CENTER_LEFT">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Button>
+   </right>
+   <effect>
+      <Blend />
+   </effect>
+   <left>
+      <Button fx:id="saveInFileButton" mnemonicParsing="false" prefHeight="20.0" prefWidth="85.0" text="Да" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font></Button>
+   </left>
+</BorderPane>
